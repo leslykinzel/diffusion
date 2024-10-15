@@ -1,2 +1,2 @@
-# diffusion
+# Diffusion
 Command line diff utility.
