@@ -14,7 +14,7 @@ func main() {
 		os.Exit(1)
 	}
 
-	sublen := diff.LCS(args[1], args[1], len(args[0]), len(args[1]))
+	sublen := diff.LCS(args[0], args[1])
 	if sublen == len(args[0]) && sublen == len(args[1]) {
 		fmt.Printf("Longest common subsequence is: %d, strings are identical.\n", sublen)
 	} else {
